@@ -1,0 +1,30 @@
+body {
+  background: darkgray;
+  background-image: url("/img/image-fundo.jpg");
+}
+
+.menu {
+  width: 34%;
+  height: 40%;
+  margin: 200px auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  background-image: url("/img/imagem-fundo-menu.jpeg");
+}
+
+select {
+  width: 150px;
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .menu {
+    width: 70%;
+    height: 70%;
+  }
+}
